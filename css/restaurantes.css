@@ -1,0 +1,46 @@
+header {
+    background-color: #3C6E47;
+    padding: 20px 4%;
+    box-shadow: 1px 1px 4px #1c1c1c;
+}
+
+body {
+    background-color: #fff;
+}
+
+.local {
+    display: block;
+    flex-direction: column;
+}
+
+.jangada, .outback, .cucina, .amici, .ancho {
+    margin: 200px auto;
+    width: 95%;
+}
+ .jangada img, .outback img, .cucina img, .amici img, .ancho img {
+    max-width: 580px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #1c1c1c;
+    margin-right: 30px;
+    float: left;
+}
+
+.outback img, .amici img {
+    float: right;
+}
+
+.text-box, .text-box-2, .text-box-3, .text-box-4, .text-box-5 {
+    color: #1c1c1c;
+}
+
+.text-box h2, .text-box-2 h2, .text-box-3 h2, .text-box-4 h2, .text-box-5 h2 {
+    font-size: 42px;
+}
+
+.text-box p, .text-box-2 p, .text-box-3 p, .text-box-4 p, .text-box-5 p {
+    font-size: 16px;
+}
+
+.text-box strong, .text-box-2 strong, .text-box-3 strong, .text-box-4 strong, .text-box-5 strong {
+    line-height: 35px;
+}

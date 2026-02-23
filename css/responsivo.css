@@ -1,0 +1,163 @@
+
+@media screen and (max-width: 1220px){
+    header .menu-principal, header .btn-contato{
+        display: none;
+    }
+
+    header .btn-menu-mobile{
+    display: block;
+}
+}
+
+@media screen and (max-width: 1220px){
+    /* responsivo do topo-site */
+header .btn-contato button:hover, .topo-site button:hover{
+        transform: scale(1.1);
+    background-color: #F5F1EA;
+    color: #1c1c1c;
+}
+
+.topo-site .txt-topo h1{
+    font-size: 2.7em;
+    line-height: 55px;
+}
+
+.topo-site .txt-topo p{
+    font-size: 16px;
+}
+
+.topo-site .txt-topo p span{
+    display: inline;
+}
+
+.topo-site button{
+    margin-top: 40px;
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width: 980px){
+    /* responsivo da informacoes */
+    section.informacoes{
+    padding: 80px 0;
+}
+
+.informacoes .itens-container{
+    flex-direction: column;
+}
+
+.informacoes .itens-container .img-itens img{
+    max-width: 100%;
+}
+
+.img-itens img{
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #1c1c1c;
+}
+
+.informacoes .itens-container .txt-itens p{
+    margin-bottom: 20px;
+}
+
+.informacoes .itens-container .item-1{
+    order: 1;
+}
+
+.informacoes .itens-container .item-2{
+    order: 0;
+}
+}
+
+@media screen and (max-width: 1220px){
+    /* responsivo do cards */
+    h4{
+    font-size: 40px;
+    padding: 0 20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.card:hover{
+    transform: none;
+}
+}
+
+@media screen and (max-width: 1220px){
+    /* responsivo das imagens e textos lugares */
+.raya, .teatro, .magic, .zoo, .shop, .curupira, .catedral, .mercadão, .arena, .park {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.raya img, .magic img, .shop img, .catedral img, .arena img, .teatro img, .zoo img, .curupira img, .mercadão img, .park img {
+    max-width: 580px;
+    width: 100%;
+    height: auto;
+    margin: 30px;
+}
+}
+
+@media screen and (max-width: 450px){
+    /* responsivo tamanho das imagens lugares */
+    .raya img, .magic img, .shop img, .catedral img, .arena img, .teatro img, .zoo img, .curupira img, .mercadão img, .park img {
+        max-width: 350;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    /* responsivo das imagens e textos restaurantes */
+.jangada, .outback, .cucina, .amici, .ancho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.jangada img, .outback img, .cucina img, .amici img, .ancho img {
+    max-width: 580px;
+    width: 100%;
+    height: auto;
+    margin: 30px;
+}
+}
+
+@media screen and (max-width: 450px){
+    /* responsivo tamanho das imagens restaurantes */
+    .jangada img, .outback img, .cucina img, .amici img, .ancho img {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    /* responsivo das imagens e texto do blog */
+.rp, .sesi, .quermesse, .audiovisual, .circo {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.rp img, .sesi img, .quermesse img, .audiovisual img, .circo img {
+    max-width: 580px;
+    width: 100%;
+    height: auto;
+    margin: 30px;
+}
+
+.text-box h2, .text-box-2 h2, .text-box-3 h2, .text-box-4 h2, .text-box-5 h2 {
+    margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    /* responsivo das imagens do blog */
+    .rp img, .sesi img, .quermesse img, .audiovisual img, .circo img {
+        max-width: 350px;
+    }
+}

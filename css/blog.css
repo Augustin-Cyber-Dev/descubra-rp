@@ -1,0 +1,36 @@
+header{
+    background-color: #3C6E47;
+    padding: 20px 4%;
+    box-shadow: 1px 1px 4px #1c1c1c;
+}
+
+body {
+    background-color: #fff;
+}
+
+.local {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+.rp, .sesi, .quermesse, .audiovisual, .circo {
+    margin: 85px auto;
+    width: 95%;
+}
+
+.rp img, .sesi img, .quermesse img, .audiovisual img, .circo img {
+    max-width: 580px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #1c1c1c;
+    margin-right: 100px;
+}
+
+.text-box, .text-box-2, .text-box-3, .text-box-4, .text-box-5 {
+    color: #1c1c1c;
+}
+
+.text-box h2, .text-box-2 h2, .text-box-3 h2, .text-box-4 h2, .text-box-5 h2 {
+    font-size: 42px;
+}

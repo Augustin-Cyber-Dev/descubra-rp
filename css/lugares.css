@@ -1,0 +1,51 @@
+header{
+    background-color: #3C6E47;
+    padding: 20px 4%;
+    box-shadow: 1px 1px 4px #1c1c1c;
+}
+
+body {
+    background-color: #fff;
+}
+
+.local {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.raya, .teatro, .magic, .zoo, .shop, .curupira, .catedral, .mercadão, .arena, .park {
+    margin: 50px auto;
+    width: 95%;
+}
+
+.raya img, .magic img, .shop img, .catedral img, .arena img {
+    float: left;
+}
+
+.teatro img, .zoo img, .curupira img, .mercadão img, .park img {
+    float: right;
+}
+
+.raya img, .teatro img, .magic img, .zoo img, .shop img, .curupira img, .catedral img, .mercadão img, .arena img, .park img {
+    max-width: 580px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #1c1c1c;
+    margin-right: 30px;
+}
+
+.text-box, .text-box-2, .text-box-3, .text-box-4, .text-box-5, .text-box-6, .text-box-7, .text-box-8, .text-box-9, .text-box-10 {
+    color: #1c1c1c;
+}
+
+.text-box h2, .text-box-2 h2, .text-box-3 h2, .text-box-4 h2, .text-box-5 h2, .text-box-6 h2, .text-box-7 h2, .text-box-8 h2, .text-box-9 h2, .text-box-10 h2 {
+    font-size: 42px;
+}
+
+.text-box p, .text-box-2 p, .text-box-3 p, .text-box-4 p, .text-box-5 p, .text-box-6 p, .text-box-7 p, .text-box-8 p, .text-box-9 p, .text-box-10 p {
+    font-size: 16px;
+}
+
+.text-box strong, .text-box-2 strong, .text-box-3 strong, .text-box-4 strong, .text-box-5 strong, .text-box-6 strong, .text-box-7 strong, .text-box-8 strong, .text-box-9 strong, .text-box-10 strong {
+    line-height: 35px;
+}

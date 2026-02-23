@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #E3E3E3;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+header .btn-contato button,
+.topo-site button {
+    background-color: transparent;
+    color: #F5F1EA;
+    font-size: 18px;
+    border: 1px solid #F5F1EA;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+/* css do header */
+header {
+    width: 100%;
+    padding: 35px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    z-index: 999;
+}
+
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 70px;
+}
+
+header.rolar {
+    background-color: #3C6E47;
+    padding: 20px 4%;
+    box-shadow: 1px 1px 4px #1c1c1c;
+}
+
+header .menu-principal nav ul {
+    list-style-type: none;
+}
+
+header .menu-principal nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menu-principal nav ul li a {
+    color: #DCDCDC;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.menu-principal nav a:hover {
+    color: #fff;
+    transform: scale(1.25);
+}
+
+header .btn-contato button {
+    background-color: transparent;
+    color: #F5F1EA;
+    width: 140px;
+    height: 50px;
+}
+
+header .btn-contato button:hover,
+.topo-site button:hover {
+    transform: scale(1.30);
+    background-color: #F5F1EA;
+    color: #1c1c1c;
+}
+
+/* css do menu mobile */
+
+header .btn-menu-mobile {
+    display: none;
+    position: relative;
+    z-index: 99999999999999;
+}
+
+header .btn-menu-mobile div {
+    background-color: #fff;
+    height: 3px;
+    margin: 10px 0;
+    transition: .2s;
+}
+
+header .btn-menu-mobile .line-menumobile-1 {
+    width: 30px;
+}
+
+header .btn-menu-mobile .line-menumobile-2 {
+    width: 20px;
+}
+
+header .btn-menu-mobile .line-menumobile-1.ativo1 {
+    transform: rotate(45deg) translate(30%);
+}
+
+header .btn-menu-mobile .line-menumobile-2.ativo2 {
+    transform: rotate(-45deg) translate(30%);
+    width: 30px;
+}
+
+/* css do menu mob */
+header .menu-mob {
+    width: 0%;
+    height: 0vh;
+    background-color: #1c1c1c;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    transition: .5s;
+}
+
+header .menu-mob nav {
+    width: 100%;
+}
+
+header .menu-mob nav ul {
+    list-style-type: none;
+}
+
+header .menu-mob nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0;
+    display: block;
+    transition: .5s;
+}
+
+header .menu-mob nav a:hover {
+    background-color: #fff;
+    color: #1c1c1c;
+    box-shadow: 0 0 20px #fff;
+}
+
+header .menu-mob.abrir {
+    width: 100%;
+    height: 100vh;
+}
+
+body.no-overflow {
+    overflow: hidden;
+}
+
+/* css do topo-site */
+section.topo-site {
+    height: 100vh;
+    background-image: url(../imagens/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #F5F1EA;
+}
+
+.topo-site .interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.topo-site .txt-topo h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.topo-site .txt-topo h1 span {
+    display: block;
+    font-weight: 800;
+}
+
+.topo-site .txt-topo p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.topo-site .txt-topo p span {
+    display: block;
+}
+
+.topo-site button {
+    margin-top: 40px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+}
+
+/* css das informacoes */
+section.informacoes {
+    padding: 80px 0;
+}
+
+.informacoes .itens-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+
+.informacoes .itens-container .img-itens img {
+    max-width: 480px;
+}
+
+.img-itens img {
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #1c1c1c;
+}
+
+.informacoes .itens-container .txt-itens h3 {
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.itens-container .txt-itens h3 span {
+    font-weight: 300;
+}
+
+.interface {
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* css dos cards */
+h4 {
+    text-align: center;
+    justify-content: center;
+    margin: 10rem 0 10rem 0;
+    font-size: 55px;
+}
+
+h4 span {
+    font-weight: 200;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    box-shadow: 6px 6px 10px #1c1c1c;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: scale(1.15);
+    z-index: 10;
+    position: relative;
+}
+
+.card h3 {
+    margin-bottom: 5px;
+}
+
+.user i {
+    font-size: 100px;
+    color: #3C6E47;
+}
+
+.star {
+    width: 20px;
+}
+
+#txt-card {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* css do footer */
+footer {
+    background-color: #3C6E47;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer .topo-footer button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #F5F1EA;
+    background-color: transparent;
+    color: #F5F1EA;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .5s;
+}
+
+footer .topo-footer button:hover {
+    background-color: #F5F1EA;
+    color: #1c1c1c;
+}
+
+footer .baixo-footer,
+.topo-footer {
+    padding: 15px;
+}
+
+footer .baixo-footer {
+    border-top: 2px solid #F5F1EA;
+}
+
+footer .baixo-footer p {
+    color: #F5F1EA;
+    margin-top: 10px;
+}
